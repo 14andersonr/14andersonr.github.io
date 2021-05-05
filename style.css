@@ -1,0 +1,323 @@
+/* Interactive Header from https://tympanus.net/Development/AnimatedHeaderBackgrounds/index.html*/
+
+#demo-1 {    /*  Used to be "body {"  */
+	background: #fff;
+	color: #383a3c;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.25;
+	font-family: 'Raleway', Calibri, Arial, sans-serif;
+}
+
+.large-header {
+	position: relative;
+	width: 100%;
+	background: #001e26;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+}
+
+#demo-1 .large-header {
+	background-image: url('../img/demo-1-bg.jpg');
+}
+
+#main-title {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+	text-transform: uppercase;
+	font-size: 4.2em;
+	letter-spacing: 0.1em;
+}
+
+#main-title .thin {
+	font-weight: 200;
+	line-height: 1.5em;
+}
+
+#main-title .subtitle {
+	font-size: 0.5em;
+	font-weight: 200;
+}
+
+@media only screen and (max-width : 768px) {
+	#main-title {
+		font-size: 3em;
+	}
+}
+
+
+body {
+	margin-top: 0px;
+	padding: 0;
+	background: #24130F url(images/img01.jpg) repeat-x left top;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #8A8A8A;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: #549900;
+}
+
+h1 { font-size: 44px; }
+
+h2 { font-size: 18px; }
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 240%;
+	text-align: justify;
+}
+
+a {
+	color: #ff8b00;
+}
+
+a:hover { text-decoration: none; }
+
+a img {
+	border: none;
+}
+
+img.left {
+	float: left;
+	margin: 7px 30px 0 0;
+}
+
+img.right {
+	float: right;
+	margin: 7px 0 0 30px;
+}
+
+hr { display: none; }
+
+.list1 li {
+	float: left;
+	line-height: normal;
+}
+
+.list1 li img {
+	margin: 0 30px 30px 0;
+}
+
+.list1 li.alt img {
+	margin-right: 0;
+}
+
+
+
+
+/* Menu */
+
+#menu {
+	margin-left: auto;
+	margin-right: auto;
+	width: 650px;
+	height: 50px;
+	background: url(images/img02.jpg) no-repeat left top;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px 0px 0px 5px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	display: block;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	height: 32px;
+	margin-right: 3px;
+	padding: 18px 30px 0px 30px;
+	background: url(images/img07.gif) no-repeat left top;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000000;
+}
+
+#menu a:hover { text-decoration: underline; }
+
+#menu .current_page_item a {
+	height: 50px;
+	color: #000000;
+}
+
+#menu .first {
+	background: none;
+}
+
+/* Page */
+
+#page {
+	width: 920px;
+	margin: 0 auto;
+	padding: 20px 20px 20px 20px;
+	background: #000000;
+}
+
+
+/** LOGO */
+
+#logo {
+	width: 960px;
+	height: 40px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#logo h1, #logo p {
+	margin: 0px;
+	line-height: normal;
+	text-align: center;
+	text-transform: lowercase;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+#logo p {
+	text-transform: lowercase;
+	font-size: 13px;
+	color: #757575;
+}
+
+#logo h1 {
+	padding-top: 10px;
+	font-size: 48px;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #757575;
+}
+
+#logo h1 a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+
+#banner {
+	padding-bottom: 20px;
+}
+
+/* Content */
+
+#content {
+	margin-left: auto;
+	margin-right: auto;
+	width: 580px;
+}
+
+/* Post */
+
+.post {
+	background: url(images/img08.gif) repeat-x left bottom;
+	margin-bottom: 45px;
+}
+
+.post .title {
+	height: 30px;
+	color: #FFFFFF;
+}
+
+.post .title a {
+	display: inline-block;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-size: 30px;
+	color: #FFFFFF;
+}
+
+.post .meta {
+	display: inline-block;
+	margin-left: 2px;
+	padding: 2px 30px 2px 16px;
+	background: url(images/img10.gif) no-repeat left 7px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 10px;
+	color: #66665E;
+}
+
+.post .meta span {
+	display: block;
+	margin-top: -10px;
+}
+
+.post .entry {
+	padding: 10px 0;
+}
+
+.post .links {
+	margin: 0 250px 0 0;
+	padding: 0 0 0 0px;
+}
+
+.post .links .permalink {
+	padding-left: 17px;
+}
+
+
+/* Footer */
+
+#footer {
+	width: 920px;
+	height: 49px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+#footer-bgcontent {
+	margin: 0px;
+	padding: 0px;
+	height: 99px;
+}
+
+#footer p {
+	margin: 0;
+	text-align: center;
+	line-height: normal;
+	text-transform: uppercase;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+#footer a {
+	color: #E5FFC4;
+}
+
+#submission {
+	color: #ff8b00;
+}
+
+/* Projects Section */
+
+#projectsDisplayRow img {
+	width: 110%;
+	height: auto;
+	overflow: hidden;
+	opacity: 0.7;
+	transition: transform 0.5s, opacity 0.5s;
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1.1);
+}
